@@ -8,10 +8,10 @@ Each interaction ends in one of four decisions: **ALLOW**, **MODIFY**, **BLOCK**
 
 ## Author
 
-Ishitha S - 230701117
-Hemashri U - 230701114
-Ishwari Rajmohan - 230701118
-Jaya Bharathi M - 230701126
+1. Ishitha S - 230701117
+2. Hemashri U - 230701114
+3. Ishwari Rajmohan - 230701118
+4. Jaya Bharathi M - 230701126
 
 **Department**: Computer Science and Engineering
 **Institution**: Rajalakshmi Engineering College
