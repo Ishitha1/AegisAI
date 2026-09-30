@@ -6,6 +6,18 @@ Each interaction ends in one of four decisions: **ALLOW**, **MODIFY**, **BLOCK**
 
 ---
 
+## Author
+
+Ishitha S - 230701117
+Hemashri U - 230701114
+Ishwari Rajmohan - 230701118
+Jaya Bharathi M - 230701126
+
+**Department**: Computer Science and Engineering
+**Institution**: Rajalakshmi Engineering College
+
+---
+
 ## The Problem
 
 AI customer-support agents can make mistakes that carry financial, legal and privacy risk:
@@ -116,16 +128,16 @@ Every evaluation returns a structured record. Example of a blocked refund:
 | Docker Compose deployment | Completed |
 | Test suite | Completed |
 | Response remediation | Partial (LLM rewriting in progress) |
-| Human escalation workflow | Partial |
-| Dashboard and analytics | Partial |
-| Delivery-date verification | Partial |
-| PII protection | Partial |
+| Human escalation workflow | Completed |
+| Dashboard and analytics | Completed |
+| Delivery-date verification | Completed |
+| PII protection | Completed |
 | Fraud / legal escalation | Partial |
-| Multi-turn context checking | Not started |
-| Human approval workflow | Not started |
-| Shadow mode | Not started |
-| Evaluation dataset | Not started |
-| Metrics dashboard | Not started |
+| Multi-turn context checking | Partial |
+| Human approval workflow | Partial |
+| Shadow mode | Partial |
+| Evaluation dataset | Partial |
+| Metrics dashboard | Partial |
 | Replay mode | Not started |
 
 ---
@@ -211,6 +223,25 @@ python -m pytest -v
 
 ---
 
-## Author
+## SDG Alignment
 
-**Ishitha**, B.E. Computer Science and Engineering, Rajalakshmi Engineering College, Chennai
+The project aligns with the following United Nations Sustainable Development Goals:
+
+### SDG 09 — Industry, Innovation and Infrastructure
+
+Promotes responsible AI innovation through independent policy validation, tool authorization, continuous monitoring, and audit mechanisms for secure AI integration.
+
+### SDG 16 — Peace, Justice and Strong Institutions
+
+Promotes accountable and transparent AI operations through consistent policy enforcement, controlled tool execution, explainable `ALLOW`, `MODIFY`, `BLOCK`, and `ESCALATE` decisions, and traceable audit logging.
+
+---
+
+## Disclaimer
+
+This repository represents an academic final-year project.
+
+AegisAI is developed as an independent AI policy enforcement and security compliance platform for the ShopSphere application. The implemented policies, security controls, tool authorization, audit mechanisms and evaluation results are intended for academic research, testing, and demonstration purposes.
+
+**Limitations:** The current implementation is limited to the defined ShopSphere environment, configured policies, supported tools, and test scenarios. It does not guarantee complete detection or prevention of all security threats, policy violations, or AI-related risks and should not be considered a production-ready security or compliance solution.
+
