@@ -143,48 +143,6 @@ Every evaluation returns a structured record. Example of a blocked refund:
 
 ---
 
-## Getting Started
-
-### Prerequisites
-
-- Python 3 and Node.js
-- [Ollama](https://ollama.com) with the Qwen3-8B model pulled
-- Docker (optional, for Compose)
-
-Copy `.env.example` to `.env` and adjust the values.
-
-### Run the backend
-
-```bash
-cd backend
-uvicorn app.main:app --reload --port 8000
-```
-
-### Run the frontend
-
-```bash
-cd frontend
-npm install
-npm run dev
-```
-
-Open `http://localhost:5173`.
-
-### Run with Docker Compose
-
-```bash
-docker-compose up --build
-```
-
-### Run the tests
-
-```bash
-cd backend
-python -m pytest -v
-```
-
----
-
 ## API Endpoints
 
 | Method | Endpoint | Purpose |
