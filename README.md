@@ -1,4 +1,4 @@
-# AegisAI: A Policy Enforcement Gateway for AI Customer-Support Agents
+# AegisAI: An Agentic AI Policy Enforcement Gateway for Customer-Support Agents
 
 AegisAI sits between an AI customer-support chatbot and a company's business tools. It checks every proposed response and every proposed action against company policy **before** anything reaches the customer or gets executed.
 
